@@ -6,7 +6,7 @@ import EditNoteScreen from '../pages/EditNoteScreen';
 const MainStack = createStackNavigator();
 
 export default () => (
-  <MainStack.Navigator screenOption={{
+  <MainStack.Navigator screenOptions={{
     headerStyle: {
       backgroundColor: '#222'
     },
